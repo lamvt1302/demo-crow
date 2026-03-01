@@ -1,0 +1,23 @@
+{
+  "name": "vbpl-data-downloader",
+  "version": "1.0.0",
+  "description": "Vue.js app to download legal documents data from vbpl.vn",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js",
+    "dev:all": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "vue": "^3.4.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
